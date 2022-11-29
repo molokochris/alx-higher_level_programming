@@ -1,2 +1,4 @@
 #!/usr/bin/python3
-print('abcdefghijklmnopqrstuvwxyz')
+import string
+letters = string.ascii_lowercase
+print(letters, end = '')
