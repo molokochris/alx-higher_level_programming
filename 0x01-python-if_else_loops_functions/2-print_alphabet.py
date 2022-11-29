@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-import string
-letters = string.ascii_lowercase
-print(letters, end = '')
+for i in range(97, 123):
+    print("{}".format(chr(i)), end = '')
